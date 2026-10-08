@@ -26,6 +26,7 @@ dependencies:
   objectbox_flutter_libs: ^6.0.0-preview.4
   flutter_secure_storage: ^11.2.0
   path_provider: ^2.1.6
+  path: ^1.9.1
 
   # UI & Media
   cached_network_image: ^4.0.4
