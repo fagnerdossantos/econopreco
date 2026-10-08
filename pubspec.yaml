@@ -1,21 +1,68 @@
 name: econopreco
-description: "A new Flutter project."
-publish_to: 'none'
+description: "An app for comparing prices of products."
+publish_to: "none" # Prevents accidental publishing to pub.dev
+
 version: 0.1.0+1
 
+# ENVIRONMENT CONFIGURATION
 environment:
   sdk: ^3.13.1
 
+# DEPENDENCIES
 dependencies:
+  # Flutter Framework
   flutter:
     sdk: flutter
 
+  # State Management & Service Locator
+  flutter_bloc: ^9.1.1
+  get_it: ^9.3.0
+
+  # Networking & Data Fetching
+  dio: ^5.11.1
+
+  # Local Database & Storage
+  objectbox: ^6.0.0-preview.4
+  objectbox_flutter_libs: ^6.0.0-preview.4
+  flutter_secure_storage: ^11.2.0
+  path_provider: ^2.1.6
+
+  # UI & Media
+  cached_network_image: ^4.0.4
+  material_ui: ^1.6.0
+
+  # Models & Data Annotations
+  freezed_annotation: ^3.1.0
+
+  # UI Testing & Debugging
   device_preview: ^3.0.0
 
+# DEV DEPENDENCIES
 dev_dependencies:
+  # Testing & Linting
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
 
+  # Code Generation
+  build_runner: ^2.16.2
+  freezed: ^4.0.2
+  json_serializable: ^6.14.1
+  objectbox_generator: ^6.0.0-preview.4
+
+# FLUTTER CONFIGURATION
 flutter:
   uses-material-design: true
+
+  # Assets section
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # Fonts section
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700
