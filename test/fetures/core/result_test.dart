@@ -1,4 +1,4 @@
-import 'package:econopreco/fetures/core/result.dart';
+import 'package:econopreco/features/core/result.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
