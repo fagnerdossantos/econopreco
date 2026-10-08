@@ -60,3 +60,7 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Linux generated plugin files
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugins.cmake
