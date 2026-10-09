@@ -1,5 +1,11 @@
 # Econopreço
 
+![Flutter](https://img.shields.io/badge/Flutter-027DF7?logo=flutter&logoColor=white&style=flat-square)
+![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white&style=flat-square)
+![License](https://img.shields.io/badge/license-GPL--3.0-blue?style=flat-square)
+![Status](https://img.shields.io/badge/status-in%20development-orange?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-Android-green?style=flat-square)
+
 App mobile para comparar preços de supermercado no Rio de Janeiro. Você pesquisa um
 produto (ou escaneia o código de barras), vê o preço em cada rede lado a lado e monta
 a cesta para saber onde compensa comprar — sem ficar abrindo site por site e baixando
