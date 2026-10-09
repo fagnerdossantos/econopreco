@@ -64,3 +64,6 @@ app.*.map.json
 # Linux generated plugin files
 /linux/flutter/generated_plugin_registrant.cc
 /linux/flutter/generated_plugins.cmake
+
+# Flutter DevTools generated settings
+devtools_options.yaml
