@@ -1,7 +1,7 @@
 import 'package:device_preview/device_preview.dart' show DevicePreview;
 import 'package:device_preview/presets.dart' show DevicePresets;
 import 'package:flutter/foundation.dart' show kDebugMode;
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 import 'app_widget.dart';
 

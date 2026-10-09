@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
+import 'app/theme/app_theme.dart';
 import 'home_view.dart';
 
 class AppWidget extends StatelessWidget {
@@ -7,8 +8,11 @@ class AppWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: HomeView()
+    return MaterialApp(
+      theme: AppTheme.light(),
+      darkTheme: AppTheme.dark(),
+      themeMode: ThemeMode.light, // switch to ThemeMode.system later
+      home: const HomeView(),
     );
   }
 }
