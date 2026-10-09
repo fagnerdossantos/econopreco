@@ -3,6 +3,7 @@ description: "An app for comparing prices of products."
 publish_to: "none" # Prevents accidental publishing to pub.dev
 
 version: 0.1.0+1
+license: GPL-3.0-or-later
 
 # ENVIRONMENT CONFIGURATION
 environment:
